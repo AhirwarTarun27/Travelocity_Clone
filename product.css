@@ -153,10 +153,9 @@ body {
 }
 
 #rightBox {
-  height: fit-content;
-  width: 10%;
+  height: 100vh;
+  width: 15%;
   /* flex-grow: 1; */
-  border: 1px solid red;
 }
 img {
   width: 100%;
@@ -207,11 +206,12 @@ select {
 
 .rating {
   font-weight: bolder;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .secDiv {
   width: 79%;
+  display: flex;
 }
 
 .city {
@@ -222,4 +222,41 @@ select {
 
 .green {
   color: green;
+  margin: 10px 0px;
+}
+
+.secDiv > div:nth-child(1) {
+  width: 70%;
+  margin-left: 15px;
+}
+.secDiv > div:nth-child(2) {
+  width: 30%;
+  text-align: right;
+}
+
+.secDiv > div:nth-child(2) h2 {
+  margin: 19px 0px 0px;
+}
+
+.secDiv button {
+  margin: 10px 0px 20px 0px;
+  width: 150px;
+  height: 35px;
+  background-color: #2a6ec1;
+  color: white;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.greenBg {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #1f7d57;
+  border-radius: 15px;
+  width: 130px;
+  justify-content: right;
+  float: right;
+  text-align: center;
 }

@@ -20,7 +20,9 @@ let midBox = document.getElementById("middleBox");
 let data = [
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 4.5,
     img_src:
@@ -29,7 +31,9 @@ let data = [
   },
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 3.5,
     img_src:
@@ -38,7 +42,9 @@ let data = [
   },
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 2.5,
     img_src:
@@ -46,35 +52,76 @@ let data = [
     rate: 239,
   },
   {
-    name: "Hilton Goa Resort",
+    name: "villa Goa Resort",
+    view: "villa",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 5,
     img_src:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
+      "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     rate: 309,
   },
   {
-    name: "Hilton Goa Resort",
+    name: "Royal Villa Resort",
+    view: "villa",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 4,
     img_src:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
+      "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     rate: 129,
   },
   {
-    name: "Hilton Goa Resort",
+    name: "Royal Villa Resort",
+    view: "villa",
     city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 4,
+    img_src:
+      "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: 129,
+  },
+  {
+    name: "Royal Villa Resort",
+    view: "villa",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 4,
+    img_src:
+      "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: 129,
+  },
+  {
+    name: "Royal Villa Resort",
+    view: "villa",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 4,
+    img_src:
+      "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: 129,
+  },
+  {
+    name: "Beach Goa Resort",
+    view: "beach",
+    city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 3.5,
     img_src:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     rate: 169,
   },
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 4.2,
     img_src:
@@ -82,17 +129,21 @@ let data = [
     rate: 889,
   },
   {
-    name: "Hilton Goa Resort",
+    name: "Sun Beach Resort",
+    view: "beach",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 5,
     img_src:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
+      "https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     rate: 899,
   },
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 5,
     img_src:
@@ -100,17 +151,21 @@ let data = [
     rate: 929,
   },
   {
-    name: "Hilton Goa Resort",
+    name: "Beach Resort",
+    view: "beach",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 3.5,
     img_src:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
+      "https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     rate: 629,
   },
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 2.5,
     img_src:
@@ -118,17 +173,21 @@ let data = [
     rate: 129,
   },
   {
-    name: "Hilton Goa Resort",
+    name: "Finland goa beach Resort",
+    view: "beach",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 3.5,
     img_src:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
+      "https://images.unsplash.com/photo-1527142879-95b61a0b8226?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     rate: 279,
   },
   {
     name: "Hilton Goa Resort",
+    view: "ocean",
     city: "Saipem",
+    num: 3,
     info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
     rating: 3.9,
     img_src:
@@ -180,11 +239,37 @@ function displayProducts() {
 
     div1.append(H2, p1, p2, p3, rate);
 
+    let div2 = document.createElement("div");
+
+    let btn = document.createElement("button");
+    btn.innerText = "Reserve a room";
+
+    let ptag1 = document.createElement("p");
+    ptag1.setAttribute("class", "greenBg");
+    ptag1.innerHTML = `<span>We have ${item.num} left</span>`;
+
+    let H2tag = document.createElement("h2");
+    H2tag.innerText = `$${item.rate}`;
+
+    let ptag2 = document.createElement("p");
+    ptag2.innerHTML = `per night <br> <strong>$${Tax(
+      item.rate
+    )} total</strong><br> Includes Taxes & fees`;
     //   second div
-    secDiv.append(div1);
+
+    div2.append(btn, ptag1, H2tag, ptag2);
+
+    secDiv.append(div1, div2);
 
     mainDiv.append(imgDiv, secDiv);
 
     prodBox.append(mainDiv);
   });
+}
+
+function Tax(num) {
+  let red = num * 0.18;
+
+  num = num + red;
+  return num;
 }
