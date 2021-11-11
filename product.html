@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="product.css" />
+    <title>Goa India Hotel search</title>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <div class="leftHeader">
+          <div>
+            <a href="index.html">
+              <img
+                src="	https://www.travelocity.com/_dms/header/logo.svg?locale=en_US&siteid=80001&2"
+                alt="travelocity logo"
+              />
+            </a>
+          </div>
+          <div class="dropdown">
+            <nav class="moreTravelContainer">
+              <ul>
+                <li>
+                  <div id="active">
+                    <p>More travel</p>
+                    <i class="fas fa-chevron-circle-down"></i>
+                  </div>
+
+                  <ul id="showDrop">
+                    <li>
+                      <a href="#link"
+                        ><i class="fa-solid fa fa-briefcase"></i>
+                        <p>Packages</p></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#link"
+                        ><i class="fa-solid fa 2x fa-briefcase"></i>
+                        <p>Packages</p></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#link"
+                        ><i class="fa-solid fa fa-briefcase"></i>
+                        <p>Packages</p></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#link"
+                        ><i class="fa-solid fa fa-briefcase"></i>
+                        <p>Packages</p></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="rightHeader">
+          <a href="#link"><p>Espanol</p></a>
+          <a href="#link"><p>List your property</p></a>
+          <a href="#link"><p>Support</p></a>
+          <a href="#link"><p>Trips</p></a>
+          <a href="signIn.html"><p>Sign in</p></a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div id="container">
+        <div class="inputBox">
+          <table>
+            <tr>
+              <thead>
+                <th></th>
+                <th><label>Check in</label></th>
+                <th><label>Check-out</label></th>
+                <th></th>
+                <th></th>
+              </thead>
+            </tr>
+            <tr>
+              <td><input type="search" placeholder="Goa, India" /></td>
+              <td><input type="date" placeholder="check-in" /></td>
+              <td><input type="date" placeholder="check-out" /></td>
+              <td><input type="number" placeholder="Travelers" /></td>
+              <td><button>Search</button></td>
+            </tr>
+          </table>
+        </div>
+        <div id="flexBox">
+          <div id="leftBox">
+            <div class="mapBox">
+              <div>
+                <img
+                  height="30px"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGvZ8ynmdOd-DTsCZM8sZjrTSv-nk95_YT_w&usqp=CAU"
+                  alt=""
+                />
+              </div>
+              <div><p>View in a map</p></div>
+            </div>
+            <div class="hrLine"></div>
+            <div id="filterBox">
+              <div><h3>Filter by</h3></div>
+              <div>
+                <h4>Popular filters</h4>
+                <div>
+                  <input
+                    type="checkbox"
+                    onchange="oceanView()"
+                    class="checkbox"
+                  />
+                  <label>Ocean view</label>
+                </div>
+                <div>
+                  <input type="checkbox" onchange="villa()" class="checkbox" />
+                  <label>Villa</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    onchange="calBeach()"
+                    class="checkbox"
+                  />
+                  <label for="">Calangute Beach</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    onchange="allIncl()"
+                    class="checkbox"
+                  />
+                  <label for="">All inclusive</label>
+                </div>
+                <div>
+                  <input type="checkbox" onchange="hotel()" class="checkbox" />
+                  <label for="">Hotel</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="middleBox">
+            <div>
+              <div>
+                <p>
+                  What we are paid impacts our sort order
+                  <i class="fas fa-info-circle"></i>
+                </p>
+              </div>
+              <div>
+                <select id="selectOpt">
+                  <option>Recommended</option>
+                  <option value="priceLow">Price Low to High</option>
+                  <option value="priceHigh">Price High to Low</option>
+                  <option value="starRating">Star Rating</option>
+                </select>
+              </div>
+            </div>
+            <div id="prodContainer"></div>
+          </div>
+          <div id="rightBox"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<script src="product.js"></script>

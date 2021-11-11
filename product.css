@@ -1,0 +1,225 @@
+* {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f3f5;
+  color: #505c66;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Header section css */
+
+/* leftHeader section */
+
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: #0a438b;
+  display: flex;
+  color: #f0f3f5;
+  justify-content: space-between;
+}
+
+.leftHeader {
+  padding: 20px;
+  margin-left: 35px;
+  display: flex;
+}
+
+#active {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.moreTravelContainer ul ul li {
+  position: relative;
+  list-style: none;
+  /* display: inline-block; */
+  width: 250px;
+}
+
+.moreTravelContainer ul li a {
+  display: block;
+  text-decoration: none;
+  color: #505c66;
+}
+
+#showDrop {
+  height: 500px;
+  box-shadow: 0px 0.5rem 1rem 0px rgb(17 21 26 / 24%);
+  margin-left: 8vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.moreTravelContainer ul li a:hover {
+  color: blue;
+}
+
+.moreTravelContainer ul ul {
+  position: absolute;
+  display: none;
+}
+
+#showDrop p {
+  margin-left: 25px;
+}
+
+/* .moreTravelContainer ul li:hover > ul {
+      display: block;
+    } */
+
+.moreTravelContainer ul {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+/*///////////////left header section end///////////*/
+
+/*///// Right Header Section ////////*/
+
+.rightHeader {
+  padding: 30px;
+  margin-right: 35px;
+  display: flex;
+  gap: 20px;
+}
+
+.rightHeader a {
+  text-decoration: none;
+  color: #f0f3f5;
+}
+
+/* main box css */
+
+#container {
+  width: 90%;
+  height: fit-content;
+  margin: auto;
+  border: 1px solid #f0f3f5;
+}
+
+.inputBox {
+  width: 90%;
+  margin: auto;
+  float: left;
+  display: flex;
+}
+
+#flexBox {
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin-top: 80px;
+  gap: 20px;
+}
+
+/*////// leftBox css//////// */
+
+#leftBox {
+  /* flex-grow: 2; */
+  width: 15%;
+  height: fit-content;
+}
+
+.mapBox {
+  border-radius: 20px;
+}
+
+#leftBox > div:nth-child(1) {
+  /* border: 1px solid red; */
+}
+
+#leftBox > div:nth-child(1) > div:nth-child(2) {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color: blue;
+}
+
+.hrLine {
+  width: 100%;
+  border: 1px solid gray;
+  margin: 20px 0px;
+}
+
+#middleBox {
+  height: fit-content;
+  flex-grow: 11;
+}
+
+#rightBox {
+  height: fit-content;
+  width: 10%;
+  /* flex-grow: 1; */
+  border: 1px solid red;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#filterBox {
+  height: fit-content;
+}
+
+#filterBox > div:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+#filterBox > div:nth-child(2) div {
+  margin: 10px 0px;
+}
+
+/* middleBox css */
+
+#middleBox > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+
+select {
+  height: 50px;
+  width: 230px;
+  font-size: 17px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+/* product box css */
+
+.mainDiv {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.imgDiv {
+  width: 20%;
+}
+
+.rating {
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.secDiv {
+  width: 79%;
+}
+
+.city {
+  color: rgb(148, 144, 144);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: green;
+}

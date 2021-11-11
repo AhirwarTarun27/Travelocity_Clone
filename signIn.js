@@ -7,6 +7,7 @@ function signin(e) {
 
   let regUser = JSON.parse(localStorage.getItem("userInform"));
 
+  let flag = false;
   regUser.forEach(function (userData) {
     if (email === userData.emailId && Password === userData.pass) {
       alert("sign In succesful");
