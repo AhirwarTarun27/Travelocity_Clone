@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="create_account.css" />
-    <title>Create an account</title>
+    <link rel="stylesheet" href="signIn.css" />
+    <title>Document</title>
   </head>
   <body>
     <header>
@@ -26,7 +26,7 @@
           <a href="#link"><p>List your property</p></a>
           <a href="#link"><p>Support</p></a>
           <a href="#link"><p>Trips</p></a>
-          <a href="#link"><p>Sign in</p></a>
+          <a href="#link" id="SignChange"><p>Sign in</p></a>
         </div>
       </div>
       <div id="secHeader">
@@ -71,9 +71,9 @@
     </header>
     <main>
       <div class="title">
-        <h2>Create an Account</h2>
+        <h2>Sign in or select an option</h2>
       </div>
-      <div id="signupContainer">
+      <div id="signinContainer">
         <div class="leftBox">
           <button class="appleBtn">
             <i class="fab fa-apple"></i>
@@ -91,54 +91,33 @@
         </div>
 
         <div class="rightBox">
-          <p>Or, Create an account with your Email</p>
+          <p>Or, Sign in with your email</p>
           <form id="form">
-            <div class="Fname">
-              <label for="firstN">Given/First Name</label><br />
-              <input
-                type="text"
-                id="firstN"
-                style="width: 11.5vw; margin-right: 0px"
-              />
-            </div>
-            <div class="Lname">
-              <label for="lastN"><p>Surname/Last Name</p></label>
-              <input type="text" id="lastN" style="width: 11.5vw" />
-            </div>
             <div class="Eaddress">
-              <label for="emailA"><p>Email Address</p></label>
+              <label for="emailA"><p>Email Address or User Name *</p></label>
               <input type="email" id="emailA" style="width: 28vw" />
             </div>
             <div class="passDiv">
-              <label for="pass"><p>Password</p></label>
+              <label for="pass"><p>Password *</p></label>
               <input type="password" id="pass" style="width: 28vw" />
             </div>
-            <div class="confPassDiv">
-              <label for="confPass"><p>Confirm Password</p></label>
-              <input type="password" id="confPass" style="width: 28vw" />
+            <div class="lowerBox">
+              <div>
+                <p>*required fields</p>
+              </div>
+              <div>
+                <a href="#forget"><p>Forgot your password?</p></a>
+              </div>
+              <div>
+                <input type="checkbox" id="checkB" />
+                <p>Keep me signed in</p>
+              </div>
+              <button id="signInAcc">Sign In</button>
             </div>
           </form>
-          <div class="checkboxDiv">
-            <div>
-              <input type="checkbox" id="checkB" />
-              <p>
-                Please send me Travelocity.com emails with travel deals, special
-                offers, and other information.
-              </p>
-            </div>
-            <div>
-              <input type="checkbox" id="checkB2" />
-              <p>
-                I have read and agree to the
-                <a href="#terms of use">Terms of Use</a>
-                and the <a href="#Privacy Policy">Privacy Policy</a>
-              </p>
-            </div>
-            <button id="createAcc">Create Account</button>
-          </div>
         </div>
       </div>
     </main>
   </body>
 </html>
-<script src="create_account.js"></script>
+<script src="signIn.js"></script>

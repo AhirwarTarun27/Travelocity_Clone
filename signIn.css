@@ -62,9 +62,6 @@ body {
 }
 
 /*/ ////Second Header Css ends/////*/
-
-/* main signup container css */
-
 .title {
   width: 80%;
   margin: auto;
@@ -72,7 +69,7 @@ body {
   padding: 10px;
 }
 
-#signupContainer {
+#signinContainer {
   width: 80%;
   height: fit-content;
   background-color: white;
@@ -80,6 +77,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+/* leftBox  */
 
 .leftBox {
   width: 35%;
@@ -131,6 +130,8 @@ body {
   padding: 3px 0px;
 }
 
+/* rightBox */
+
 .rightBox {
   width: 40%;
   height: fit-content;
@@ -141,10 +142,8 @@ body {
 #form {
   display: grid;
   grid-template-areas:
-    "a b"
-    "c c"
-    "d d"
-    "e e";
+    "a a"
+    "b b";
   gap: 20px;
 }
 
@@ -153,51 +152,53 @@ body {
   height: 30px;
 }
 
-.Fname {
-  grid-area: a;
-}
-
-.Lname {
-  grid-area: b;
-}
-.Eaddress {
-  grid-area: c;
-}
-.passDiv {
-  grid-area: d;
-}
-
-.confPassDiv {
-  grid-area: e;
-}
 form label {
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-.checkboxDiv input {
+.Eaddress {
+  grid-area: a;
+}
+.passDiv {
+  grid-area: b;
+}
+
+.lowerBox input {
   float: left;
   width: 15px;
   height: 15px;
   margin-right: 5px;
 }
-.checkboxDiv {
+
+.lowerBox {
   width: 28vw;
-  margin-top: 20px;
   font-size: 13px;
+  border: 1px solid white;
 }
 
-.checkboxDiv > div:nth-child(2) {
-  margin-top: 20px;
+.lowerBox > div:nth-child(1) {
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
-#createAcc {
+.lowerBox > div:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.lowerBox > div:nth-child(2) a {
+  text-decoration: none;
+  color: #0a438b;
+}
+
+#signInAcc {
   margin-top: 15px;
-  width: 12vw;
+  width: 8vw;
   height: 45px;
   color: white;
   background-color: #003366;
   font-size: 18px;
   font-weight: bolder;
   border-radius: 8px;
+  margin-left: -20px;
 }
