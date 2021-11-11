@@ -1,0 +1,325 @@
+* {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f3f5;
+  color: #505c66;
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Header section css */
+
+/* leftHeader section */
+
+#header {
+  width: 100%;
+  height: 80px;
+  background-color: #0a438b;
+  display: flex;
+  color: #f0f3f5;
+  justify-content: space-between;
+}
+
+.leftHeader {
+  padding: 20px;
+  margin-left: 35px;
+  display: flex;
+}
+
+#active {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.moreTravelContainer ul ul li {
+  position: relative;
+  list-style: none;
+  /* display: inline-block; */
+  width: 250px;
+}
+
+.moreTravelContainer ul li a {
+  display: block;
+  text-decoration: none;
+  color: #505c66;
+}
+
+#showDrop {
+  height: 500px;
+  box-shadow: 0px 0.5rem 1rem 0px rgb(17 21 26 / 24%);
+  margin-left: 8vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#showDrop i {
+}
+
+.moreTravelContainer ul li a:hover {
+  color: blue;
+}
+
+.moreTravelContainer ul ul {
+  position: absolute;
+  display: none;
+}
+
+#showDrop p {
+  margin-left: 25px;
+}
+
+/* .moreTravelContainer ul li:hover > ul {
+  display: block;
+} */
+
+.moreTravelContainer ul {
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+/*///////////////left header section end///////////*/
+
+/*///// Right Header Section ////////*/
+
+.rightHeader {
+  padding: 30px;
+  margin-right: 35px;
+  display: flex;
+  gap: 20px;
+}
+
+.rightHeader a {
+  text-decoration: none;
+  color: #f0f3f5;
+}
+
+/* Mainpart Css */
+
+.inpBox {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/06/25/TVLY_SeizeYourSomeday_lpheroB_1680x945_20210623.jpg?impolicy=fcrop&w=1680&h=485&q=medium");
+  width: 100%;
+  height: 70vh;
+  border: 1px solid white;
+}
+
+#innerInpBox {
+  width: 85%;
+  height: 40vh;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0.25rem 0.438rem 0 rgb(17 21 26 / 20%);
+}
+
+#inpHead {
+  display: flex;
+  justify-content: center;
+}
+
+#inpHead > div {
+  padding: 14px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* tripBoxes CSS starts */
+.inlineH1 {
+  width: 90%;
+  margin: auto;
+}
+
+#tripBoxes {
+  width: 90%;
+  height: 580px;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "a b c"
+    "d d e"
+    "d d f";
+  gap: 30px;
+}
+
+.tripBox1 {
+  grid-area: a;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  display: block;
+}
+.tripBox1 > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYR54ooo_9SultCClbetkCRvIdQKTMkK7tA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border: 1px solid #f0f3f5;
+  border-radius: 15px 15px 0px 0px;
+}
+.tripBox1 > div:nth-child(1) > div {
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.tripBox1 > div:nth-child(2) {
+  width: 100%;
+  height: 20%;
+  background-image: none;
+  background-color: white;
+  color: #505c66;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.tripBox2 {
+  grid-area: b;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  display: block;
+}
+.tripBox2 > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYR54ooo_9SultCClbetkCRvIdQKTMkK7tA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border: 1px solid #f0f3f5;
+  border-radius: 15px 15px 0px 0px;
+}
+.tripBox2 > div:nth-child(1) > div {
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.tripBox2 > div:nth-child(2) {
+  width: 100%;
+  height: 20%;
+  background-image: none;
+  background-color: white;
+  color: #505c66;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.tripBox3 {
+  grid-area: c;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  display: block;
+}
+.tripBox3 > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYR54ooo_9SultCClbetkCRvIdQKTMkK7tA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border: 1px solid #f0f3f5;
+  border-radius: 15px 15px 0px 0px;
+}
+.tripBox3 > div:nth-child(1) > div {
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.tripBox3 > div:nth-child(2) {
+  width: 100%;
+  height: 20%;
+  background-image: none;
+  background-color: white;
+  color: #505c66;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.tripBox4 {
+  grid-area: d;
+  color: white;
+  display: block;
+}
+.tripBox4 > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYR54ooo_9SultCClbetkCRvIdQKTMkK7tA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border: 1px solid #f0f3f5;
+  border-radius: 15px 15px 0px 0px;
+}
+.tripBox4 > div:nth-child(1) > div {
+  margin-top: 44vh;
+  padding: 10px;
+}
+
+.tripBox4 > div:nth-child(2) {
+  width: 100%;
+  height: 20%;
+  background-image: none;
+  background-color: white;
+  color: #505c66;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.tripBox5 {
+  grid-area: e;
+  width: fit-content;
+  height: 30vh;
+  color: white;
+  display: block;
+}
+.tripBox5 > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYR54ooo_9SultCClbetkCRvIdQKTMkK7tA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border: 1px solid #f0f3f5;
+  border-radius: 15px 15px 0px 0px;
+}
+.tripBox5 > div:nth-child(1) > div {
+  margin-top: 17vh;
+  padding: 10px;
+}
+
+.tripBox5 > div:nth-child(2) {
+  width: 100%;
+  height: fit-content;
+  background-image: none;
+  background-color: white;
+  color: #505c66;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.tripBox6 {
+  grid-area: f;
+  width: fit-content;
+  height: 30vh;
+  color: white;
+  display: block;
+}
+.tripBox6 > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThYR54ooo_9SultCClbetkCRvIdQKTMkK7tA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  border: 1px solid #f0f3f5;
+  border-radius: 15px 15px 0px 0px;
+}
+.tripBox6 > div:nth-child(1) > div {
+  margin-top: 17vh;
+  padding: 10px;
+}
+
+.tripBox6 > div:nth-child(2) {
+  width: 100%;
+  height: fit-content;
+  background-image: none;
+  background-color: white;
+  color: #505c66;
+  border-radius: 0px 0px 15px 15px;
+}
