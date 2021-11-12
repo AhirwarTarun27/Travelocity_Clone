@@ -31,8 +31,9 @@ body {
 #active {
   display: flex;
   gap: 10px;
-  margin-left: 100px;
   cursor: pointer;
+  margin-top: 13px;
+  margin-left: 44px;
 }
 
 .moreTravelContainer ul ul li {
@@ -51,7 +52,7 @@ body {
 #showDrop {
   height: 500px;
   box-shadow: 0px 0.5rem 1rem 0px rgb(17 21 26 / 24%);
-  margin-left: 8vw;
+  margin-left: 3vw;
   background-color: white;
   border-radius: 10px;
 }
@@ -116,6 +117,49 @@ body {
   /* justify-content: space-evenly; */
   margin-top: 80px;
   gap: 20px;
+  position: relative;
+}
+
+td {
+  margin: 20px;
+}
+
+.goaIn {
+  width: 30vw;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.checkIn {
+  width: 10vw;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.check-outIn {
+  width: 10vw;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.numIn {
+  width: 20vw;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.searchBtn {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #2a6ec1;
+  border-radius: 20px;
 }
 
 /*////// leftBox css//////// */
@@ -157,6 +201,7 @@ body {
   width: 15%;
   /* flex-grow: 1; */
 }
+
 img {
   width: 100%;
   height: 100%;

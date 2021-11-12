@@ -27,7 +27,7 @@ let data = [
     rating: 4.5,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 269,
+    rate: "269",
   },
   {
     name: "Hilton Goa Resort",
@@ -38,7 +38,7 @@ let data = [
     rating: 3.5,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 389,
+    rate: "389",
   },
   {
     name: "Hilton Goa Resort",
@@ -49,10 +49,10 @@ let data = [
     rating: 2.5,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 239,
+    rate: "239",
   },
   {
-    name: "villa Goa Resort",
+    name: "Villa Goa Resort",
     view: "villa",
     city: "Saipem",
     num: 3,
@@ -60,7 +60,7 @@ let data = [
     rating: 5,
     img_src:
       "https://images.unsplash.com/photo-1468824357306-a439d58ccb1c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 309,
+    rate: "309",
   },
   {
     name: "Royal Villa Resort",
@@ -71,7 +71,7 @@ let data = [
     rating: 4,
     img_src:
       "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 129,
+    rate: "129",
   },
   {
     name: "Royal Villa Resort",
@@ -82,7 +82,7 @@ let data = [
     rating: 4,
     img_src:
       "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 129,
+    rate: "129",
   },
   {
     name: "Royal Villa Resort",
@@ -93,7 +93,7 @@ let data = [
     rating: 4,
     img_src:
       "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 129,
+    rate: "129",
   },
   {
     name: "Royal Villa Resort",
@@ -104,7 +104,7 @@ let data = [
     rating: 4,
     img_src:
       "https://images.unsplash.com/photo-1636484807469-e33af13716b7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8dmlsbGElMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 129,
+    rate: "129",
   },
   {
     name: "Beach Goa Resort",
@@ -115,7 +115,7 @@ let data = [
     rating: 3.5,
     img_src:
       "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhY2glMjBob3RlbHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 169,
+    rate: "169",
   },
   {
     name: "Hilton Goa Resort",
@@ -126,7 +126,7 @@ let data = [
     rating: 4.2,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 889,
+    rate: "889",
   },
   {
     name: "Sun Beach Resort",
@@ -137,7 +137,7 @@ let data = [
     rating: 5,
     img_src:
       "https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 899,
+    rate: "899",
   },
   {
     name: "Hilton Goa Resort",
@@ -148,7 +148,7 @@ let data = [
     rating: 5,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 929,
+    rate: "929",
   },
   {
     name: "Beach Resort",
@@ -159,7 +159,7 @@ let data = [
     rating: 3.5,
     img_src:
       "https://images.unsplash.com/photo-1537640685236-a9df2496e232?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 629,
+    rate: "629",
   },
   {
     name: "Hilton Goa Resort",
@@ -170,7 +170,7 @@ let data = [
     rating: 2.5,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 129,
+    rate: "129",
   },
   {
     name: "Finland goa beach Resort",
@@ -181,7 +181,7 @@ let data = [
     rating: 3.5,
     img_src:
       "https://images.unsplash.com/photo-1527142879-95b61a0b8226?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGJlYWNoJTIwaG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-    rate: 279,
+    rate: "279",
   },
   {
     name: "Hilton Goa Resort",
@@ -192,16 +192,94 @@ let data = [
     rating: 3.9,
     img_src:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUTqapzMPqp1sAYhaN-nVrjgLmaJobNAHOnA&usqp=CAU",
-    rate: 289,
+    rate: "289",
+  },
+  {
+    name: "Royal Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 3.9,
+    img_src:
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "859",
+  },
+  {
+    name: "Real Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 4.1,
+    img_src:
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "999",
+  },
+  {
+    name: "Navabi Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 4.9,
+    img_src:
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "859",
+  },
+  {
+    name: "Royal Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 3.9,
+    img_src:
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "859",
+  },
+  {
+    name: "Royal Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 3.9,
+    img_src:
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "859",
+  },
+  {
+    name: "Royal Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 3.9,
+    img_src:
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "859",
+  },
+  {
+    name: "Royal Hotel",
+    view: "hotel",
+    city: "Saipem",
+    num: 3,
+    info: "Enjoy your stay inclusive of breakfast, one major meal, shared airport transfers, one Goan Masterclass and more.",
+    rating: 3.9,
+    img_src:
+      "https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    rate: "859",
   },
 ];
 
 let prodBox = document.getElementById("prodContainer");
 
-displayProducts();
+// let cart = JSON.parse(localStorage.getItem("cartItems")) || [];
 
-function displayProducts() {
-  data.map(function (item) {
+function displayProducts(product) {
+  // prodBox.innerHTML = "";
+  product.map(function (item) {
     let mainDiv = document.createElement("div");
 
     mainDiv.setAttribute("class", "mainDiv");
@@ -243,6 +321,9 @@ function displayProducts() {
 
     let btn = document.createElement("button");
     btn.innerText = "Reserve a room";
+    btn.addEventListener("click", function () {
+      addToCart(item, parent);
+    });
 
     let ptag1 = document.createElement("p");
     ptag1.setAttribute("class", "greenBg");
@@ -267,9 +348,153 @@ function displayProducts() {
   });
 }
 
-function Tax(num) {
-  let red = num * 0.18;
+displayProducts(data);
 
-  num = num + red;
+function Tax(num) {
+  let red = Number(num) * 0.18;
+
+  num = Number(num) + red;
   return num;
+}
+
+function addToCart(item, parent) {
+  data.forEach((element) => {
+    let { name, view, city, num, info, rating, img_src, rate } = element;
+
+    localStorage.setItem("Single_products", JSON.stringify(element));
+  });
+  // let flag = false;
+
+  // for (let i = 0; i < cart.length; i++) {
+  //   if (
+  //     item.name == cart[i].name &&
+  //     item.rating == cart[i].rating &&
+  //     item.rate == cart[i].rate
+  //   ) {
+  //     flag = true;
+  //     break;
+  //   }
+  // }
+
+  // if (flag == false) {
+  //   var { name,view,city, } = element;
+  // } else if (flag == true) {
+  //   alert("This item is already in the checkout.");
+  // }
+  //
+  // localStorage.setItem("cartItems", JSON.stringify(cart));
+}
+
+var Ocount = 0;
+function oceanView() {
+  if (Ocount == 0) {
+    Ocount++;
+    console.log("oceanView");
+    console.log(data.length);
+    var arr = [];
+
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].view == "ocean") {
+        arr.push(data[i]);
+      }
+    }
+    displayProducts(arr);
+  } else {
+    displayProducts(data);
+    Ocount = 0;
+  }
+}
+
+Vcount = 0;
+
+var Vcount = 0;
+function villa() {
+  if (Vcount == 0) {
+    Vcount++;
+    console.log("villa");
+    console.log(data.length);
+    var arr = [];
+
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].view == "villa") {
+        arr.push(data[i]);
+      }
+    }
+    displayProducts(arr);
+  } else {
+    displayProducts(data);
+    Vcount = 0;
+  }
+}
+Vcount = 0;
+
+var Ccount = 0;
+function calBeach() {
+  if (Ccount == 0) {
+    Ccount++;
+    console.log("Beach");
+    console.log(data.length);
+    var arr = [];
+
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].view == "beach") {
+        arr.push(data[i]);
+      }
+    }
+    displayProducts(arr);
+  } else {
+    displayProducts(data);
+    Ccount = 0;
+  }
+}
+Ccount = 0;
+
+function allIncl() {
+  displayProducts(data);
+}
+
+var Hcount = 0;
+function hotel() {
+  if (Hcount == 0) {
+    Hcount++;
+    console.log("hotel");
+    console.log(data.length);
+    var arr = [];
+
+    for (var i = 0; i < data.length; i++) {
+      if (data[i].view == "hotel") {
+        arr.push(data[i]);
+      }
+    }
+    displayProducts(arr);
+  } else {
+    displayProducts(data);
+    Hcount = 0;
+  }
+}
+Hcount = 0;
+
+// sorting script
+
+// document.getElementById("L2H").addEventListener("click", sortLH);
+
+function sortLH() {
+  let arr = data.sort(function (a, b) {
+    return a.rate - b.rate;
+  });
+  displayProducts(arr);
+}
+
+function sortHL() {
+  let arr = data.sort(function (a, b) {
+    return b.rate - a.rate;
+  });
+  displayProducts(arr);
+}
+
+function sortRating() {
+  let arr = data.sort(function (a, b) {
+    return b.rating - a.rating;
+  });
+  displayProducts(arr);
 }

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="checkout.css" />
+    <title>Travelocity: Payment</title>
+  </head>
+  <body>
+    <header>
+      <div id="header">
+        <div class="leftHeader">
+          <div>
+            <a href="index.html">
+              <img
+                src="	https://www.travelocity.com/_dms/header/logo.svg?locale=en_US&siteid=80001&2"
+                alt="travelocity logo"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="rightHeader">
+          <a href="checkout.html"><p>Check-Out</p></a>
+          <a href="create_account.html"><p>create Account</p></a>
+          <a href="#link"><p>Support</p></a>
+          <a href="#link"><p>Trips</p></a>
+          <a href="#link" id="SignChange"><p>Sign in</p></a>
+        </div>
+      </div>
+      <hr />
+    </header>
+    <main>
+      <div class="mainCont">
+        <!-- nth child 1 -->
+        <div>
+          <h2>Secure booking — only takes 2 minutes!</h2>
+        </div>
+        <!-- nth child 2 -->
+        <div>
+          <i class="fas fa fa-exclamation-triangle"></i>
+          <p>Check COVID-19 restrictions.</p>
+          <br />
+          <a href="#covid Protocol">Find out more</a>
+        </div>
+        <!-- nth child 3 -->
+        <div>
+          <i class="fas fa-shield-alt"></i>
+          <p>
+            Free cancellation before Thu, Nov 18, 4:00pm (property local time)
+          </p>
+          <p style="margin-left: 60px; color: gray; line-height: 5px">
+            You can change or cancel this stay for a full refund if plans
+            change. Because flexibility matters.
+          </p>
+        </div>
+        <div class="mainFlex1">
+          <!-- child1 -->
+          <div>
+            <div>
+              <i class="fas fa-user-edit"></i>
+              <p><strong>Room 1: </strong>2 Adults 1 King Bed Non-smoking</p>
+              <br />
+              <p class="green"><i class="fas fa-check"></i> Free Parking</p>
+              <p class="green"><i class="fas fa-check"></i> Free WiFi</p>
+            </div>
+            <div>
+              <label for=""
+                >Contact name
+                <p style="color: red; margin-left: 0px">*</p></label
+              ><br />
+              <input
+                class="mobInp"
+                type="text"
+                placeholder="First and last name"
+              />
+              <div>
+                <label for="">
+                  Mobile phone number
+                  <p style="color: red; margin-left: 0px; margin-top: 20px">
+                    *
+                  </p></label
+                ><br />
+                <input
+                  id="mobInp"
+                  type="text"
+                  placeholder="So the property can reach you"
+                />
+              </div>
+              <div>
+                <input style="display: inline-block" type="checkbox" />
+                <p style="display: inline-block">
+                  Receive text alerts about this trip. Message and data rates
+                  may apply.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- child2 -->
+          <div id="productDis"></div>
+        </div>
+        <div class="mainFlex2">
+          <div id="paymentBox">
+            <i class="fas fa-credit-card"></i>
+            <p class="green">
+              <i class="fas fa-check"></i> We use secure transmission
+            </p>
+            <p class="green">
+              <i class="fas fa-check"></i> We protect your personal information
+            </p>
+            <div class="payInpBox">
+              <a href=""><p>Debit/Credit Card</p></a>
+              <a href=""><p>PayPal</p></a>
+              <a href=""><p>Monthly Payments</p></a>
+              <a href=""><p>Click-to-pay</p></a><br />
+              <hr />
+
+              <div class="inpBox">
+                <label for="">
+                  Name on Card
+                  <p style="color: red; margin-left: 0px; margin-top: 20px">
+                    *
+                  </p></label
+                ><br />
+                <input
+                  style="width: 60%; height: 30px; border-radius: 5px"
+                  id="Cname"
+                  type="text"
+                /><br />
+                <label for="">
+                  Debit/Credit card number
+                  <p style="color: red; margin-left: 0px; margin-top: 20px">
+                    *
+                  </p></label
+                ><br />
+                <input
+                  style="width: 40%; height: 30px; border-radius: 5px"
+                  id="Cnum"
+                  type="number"
+                /><br />
+                <label for="">
+                  Expiration date
+                  <p style="color: red; margin-left: 0px; margin-top: 20px">
+                    *
+                  </p></label
+                ><br />
+                <input
+                  style="width: 30%; height: 30px; border-radius: 5px"
+                  id="Edate"
+                  type="date"
+                />
+                <div class="inpflexBox">
+                  <div>
+                    <label for="">
+                      Security code
+                      <p style="color: red; margin-left: 0px; margin-top: 20px">
+                        *
+                      </p></label
+                    ><br />
+                    <input type="password" />
+                  </div>
+                  <div>
+                    <label for="">
+                      Billing ZIP code
+                      <p style="color: red; margin-left: 0px; margin-top: 20px">
+                        *
+                      </p></label
+                    ><br />
+                    <input type="number" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="summary">
+            <h2 style="padding: 15px">Price details</h2>
+            <hr />
+            <div class="payDetail">
+              <div>
+                <div>
+                  <p>1 room x 1 night</p>
+                  <p id="amount">11</p>
+                </div>
+                <div>
+                  <p>Taxes and fees</p>
+                  <p id="tax">44</p>
+                </div>
+              </div>
+              <hr />
+              <p>Total</p>
+              <p id="total">44</p>
+            </div>
+            <hr />
+            <label for=""><strong> Apply coupon code </strong></label><br />
+            <input placeholder="Enter coupon code" id="coupon" type="text" />
+            <button onclick="discount()">Enter</button>
+          </div>
+        </div>
+        <div class="compBookBox">
+          <p><strong>Important information about your booking</strong></p>
+          <div class="points">
+            <ul>
+              <li>
+                Cancellations or changes made after 4:00pm (property local time)
+                on Nov 18, 2021 or no-shows are subject to a property fee equal
+                to 100% of the total amount paid for the reservation.
+              </li>
+              <li>
+                Guests planning to arrive outside of normal check-in hours will
+                receive an email with check-in instructions. Front desk staff
+                will greet guests on arrival. For more details, please contact
+                the property using the information on the booking confirmation.
+              </li>
+              <li>
+                To register at this property, guests who are Indian citizens
+                must provide a valid photo identity card issued by the
+                Government of India; travelers who are not citizens of India
+                must present a valid passport and visa.
+              </li>
+            </ul>
+            <p class="agree">
+              By clicking on the button below, I acknowledge that I have
+              reviewed the <a href="">Privacy Statement</a> and
+              <a href="">Government Travel Advice</a> and have reviewed and
+              accept the <a href="">Rules & Restrictions</a> and
+              <a href="">Terms of Use</a>.
+            </p>
+            <p
+              class="green"
+              style="margin-left: 0px; margin: 0px 0px; line-height: 0px"
+            >
+              <i class="fas fa-check"></i> Change of plans? No problem. You can
+              cancel for free before Thu, Nov 18
+            </p>
+          </div>
+          <button onclick="completeBook()">Complete Booking ></button>
+          <p style="margin-left: 25px">
+            <i class="fas fa-lock"></i> &nbsp; We use secure transmission and
+            encrypted storage to protect your personal information.
+          </p>
+
+          <div style="margin-top: 0px; margin: left 60px">
+            <p>
+              This payment will be processed in the U.S. This does not apply
+              when the travel provider (airline/hotel/rail, etc.) processes your
+              payment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<script src="checkout.js"></script>
