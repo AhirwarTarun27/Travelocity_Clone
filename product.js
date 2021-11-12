@@ -278,7 +278,7 @@ let prodBox = document.getElementById("prodContainer");
 // let cart = JSON.parse(localStorage.getItem("cartItems")) || [];
 
 function displayProducts(product) {
-  // prodBox.innerHTML = "";
+  prodBox.innerHTML = "";
   product.map(function (item) {
     let mainDiv = document.createElement("div");
 
