@@ -323,6 +323,7 @@ function displayProducts(product) {
     btn.innerText = "Reserve a room";
     btn.addEventListener("click", function () {
       addToCart(item, parent);
+      alert("Room reserved sucessfully! Now proceed to checkout");
     });
 
     let ptag1 = document.createElement("p");
