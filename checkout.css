@@ -13,7 +13,7 @@ body {
 
 #header {
   width: 100%;
-  height: 65px;
+  height: 80px;
   background-color: #0a438b;
   display: flex;
   color: #f0f3f5;
@@ -157,13 +157,18 @@ img {
 
 #paymentBox {
   width: 60%;
-  height: 380px;
+  height: 450px;
   background-color: white;
+}
+
+#paymentBox > div:nth-child(1) {
+  margin-top: 20px;
 }
 
 .inpBox {
   width: 90%;
   margin: auto;
+  margin-top: 20px;
 }
 
 .payInpBox > a {
@@ -248,6 +253,8 @@ img {
 #summary {
   width: 35%;
   background-color: white;
+  color: black;
+  height: 500px;
 }
 
 #amount {
@@ -259,6 +266,16 @@ img {
   margin-bottom: 20px;
 }
 
+.payDetail > div:nth-child(1) {
+  margin: 20px 0px;
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+#summary hr {
+  color: rgb(223, 215, 215);
+}
+
 #tax {
   float: right;
   margin-right: 20px;
@@ -267,4 +284,45 @@ img {
 #total {
   float: right;
   margin-right: 20px;
+}
+
+.bold {
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+.couponBox {
+  padding: 10px 20px;
+  margin-bottom: 5px;
+}
+
+.couponBox input {
+  width: 45%;
+  height: 30px;
+  border: 2px solid black;
+  font-size: 15px;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.couponBox button {
+  width: 25%;
+  height: 30px;
+  background-color: #0a7cda;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+}
+
+.couponBox button:hover {
+  background-color: blue;
+}
+
+.gray {
+  color: gray;
+}
+
+.smallText {
+  font-size: 11px;
+  margin-top: 15px;
 }

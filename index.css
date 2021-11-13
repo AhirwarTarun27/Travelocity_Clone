@@ -43,16 +43,30 @@ body {
   /* display: inline-block; */
   width: 250px;
   margin-top: 25px;
+  line-height: 0px;
+  padding: 0px 0px;
+}
+
+.remDrop {
+  padding: 10px 0px;
+}
+
+.remDrop p {
+  padding: 10px 0px;
 }
 
 .moreTravelContainer ul li a {
   display: block;
   text-decoration: none;
   color: #505c66;
+  margin-top: 25px;
+  line-height: 0px;
+  margin-left: 10px;
+  color: black;
 }
 
 #showDrop {
-  height: 500px;
+  height: 470px;
   box-shadow: 0px 0.5rem 1rem 0px rgb(17 21 26 / 24%);
   margin-left: 3vw;
   background-color: white;

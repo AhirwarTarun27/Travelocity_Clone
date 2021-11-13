@@ -102,13 +102,16 @@
         </div>
         <div class="mainFlex2">
           <div id="paymentBox">
-            <i class="fas fa-credit-card"></i>
-            <p class="green">
-              <i class="fas fa-check"></i> We use secure transmission
-            </p>
-            <p class="green">
-              <i class="fas fa-check"></i> We protect your personal information
-            </p>
+            <div>
+              <i class="fas fa-credit-card"></i>
+              <p class="green">
+                <i class="fas fa-check"></i> We use secure transmission
+              </p>
+              <p class="green">
+                <i class="fas fa-check"></i> We protect your personal
+                information
+              </p>
+            </div>
             <div class="payInpBox">
               <a href=""><p>Debit/Credit Card</p></a>
               <a href=""><p>PayPal</p></a>
@@ -188,13 +191,36 @@
                 </div>
               </div>
               <hr />
-              <p>Total</p>
-              <p id="total">44</p>
+              <p class="bold">Total</p>
+              <p class="bold" id="total">44</p>
             </div>
             <hr />
-            <label for=""><strong> Apply coupon code </strong></label><br />
-            <input placeholder="Enter coupon code" id="coupon" type="text" />
-            <button onclick="discount()">Enter</button>
+            <div class="couponBox">
+              <label for=""
+                ><strong>
+                  Have a coupon or promotion code?<br />
+                  Enter it below
+                </strong></label
+              ><br />
+              <input placeholder="Enter coupon code" id="coupon" type="text" />
+              <button onclick="discount()">Apply</button>
+            </div>
+            <hr />
+            <div>
+              <div>
+                <p class="bold">Not included in your total</p>
+              </div>
+
+              <p class="gray">
+                Mandatory charge: Collected at property.<br /><a href=""
+                  >Details</a
+                >
+              </p>
+            </div>
+            <p class="gray smallText">
+              Taxes and Fees due at the property are based on current exchange
+              rates, and are payable in local currency.
+            </p>
           </div>
         </div>
         <div class="compBookBox">
