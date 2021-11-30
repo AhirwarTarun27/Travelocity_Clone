@@ -279,6 +279,7 @@ let prodBox = document.getElementById("prodContainer");
 
 function displayProducts(product) {
   prodBox.innerHTML = "";
+
   product.map(function (item) {
     let mainDiv = document.createElement("div");
 
@@ -322,7 +323,7 @@ function displayProducts(product) {
     let btn = document.createElement("button");
     btn.innerText = "Reserve a room";
     btn.addEventListener("click", function () {
-      addToCart(item, parent);
+      addToCart(item);
       alert("Room reserved sucessfully! Now proceed to checkout");
     });
 
@@ -358,12 +359,13 @@ function Tax(num) {
   return num;
 }
 
-function addToCart(item, parent) {
-  data.forEach((element) => {
-    let { name, view, city, num, info, rating, img_src, rate } = element;
+function addToCart(element) {
+  let { name, view, city, num, info, rating, img_src, rate } = element;
+  console.log("element:", element);
+  // console.log(element);
 
-    localStorage.setItem("Single_products", JSON.stringify(element));
-  });
+  localStorage.setItem("Single_products", JSON.stringify(element));
+
   // let flag = false;
 
   // for (let i = 0; i < cart.length; i++) {
