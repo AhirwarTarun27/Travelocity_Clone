@@ -73,7 +73,7 @@ function TaxAmount(num) {
 function discount(num) {
   let code = document.getElementById("coupon").value;
   if (code == "Masai20") {
-    alert("Coupon Applied successfully");
+    alert("Coupon having 20% discount Applied successfully");
 
     let amount = Tax(product.rate);
 
@@ -83,7 +83,7 @@ function discount(num) {
     let total = document.getElementById("total");
     total.innerHTML = `$${final}`;
   } else {
-    alert("invalid Coupon Code");
+    alert("invalid Coupon Code please enter Masai20");
   }
 }
 code = "";
