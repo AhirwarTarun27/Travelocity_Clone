@@ -414,12 +414,17 @@ body {
   grid-template-columns: 20% 20% 20% 20% 20%;
   margin: auto;
   text-align: justify;
-  margin-top: 100px;
-  /* <<<<<<< Updated upstream */
+  align-items: center;
+  margin-top: 150px;
   background-color: #f0f3f5;
   color: blue;
+  height: 230px;
+  margin-left: 53px;
 }
 
+.col1 div {
+  margin: 20px 0px;
+}
 .footer a {
   text-decoration: none;
   color: blue;
