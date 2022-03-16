@@ -46,7 +46,8 @@ First you have to have to go to the `Home Page`. There you have to click on acco
 ---
 
 ---
-- **Checkout & Payment Page** **Type Coupon Code: Masai20**
+- **Checkout & Payment Page**
+- **Type Coupon Code: Masai20**
 ---
 ![4](https://user-images.githubusercontent.com/91532627/155178037-6a3c5ebb-f518-4492-a3ee-4d10cd6cd68a.png)
 
